@@ -19,15 +19,18 @@ These instructions will help you set up a Rust project using the Create Trash Ap
 Clone the repository and navigate to the project directory:
 
 ```bash
-git clone https://github.com/your-username/create-trash-app.git
-cd create-trash-app
+cargo install create-trash-app
 ```
 
-Build the project:
+## Usage
+
+To create a new Rust project with the Axum framework, HTMX, Sqlx, and Tailwind CSS, use the following command:
 
 ```bash
-cargo build
+cargo create-trash-app your_project_name
 ```
+
+Replace `your_project_name` with the desired name for your new project.
 
 ## Contributing
 
@@ -48,7 +51,7 @@ Special thanks to contributors and the developers of Axum, HTMX, Sqlx, and Tailw
 
 ## Contact
 
-For questions or feedback, please reach out to [your-email@example.com](mailto:your-email@example.com).
+For questions or feedback, please reach out to [davidhuertasortiz@gmail.com](mailto:davidhuertasortiz@gmail.com).
 
 ## Disclaimer
 
