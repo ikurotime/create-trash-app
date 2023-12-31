@@ -1,6 +1,6 @@
 [package]
 name = "create-trash-app"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 authors = ["David Huertas"]
 description = "Create a trash with Tailwind, Rust, Axum, Sqlx, and Htmx in a few seconds. 🚀 Dockerized and ready to deploy."
