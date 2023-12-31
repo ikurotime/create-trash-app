@@ -9,12 +9,13 @@ fn main() {
     // Fetch the project name from command-line arguments
     let args: Vec<String> = env::args().collect();
 
+    println!("args: {:?}", args);
     if args.len() != 2 {
         eprintln!("Usage: create-trash-app <project-name>");
         std::process::exit(1);
     }
 
-    let project_name = &args[1];
+    let project_name = &args[2];
 
     // Create a new project using the template
     if let Err(err) = create_template_app(project_name) {
