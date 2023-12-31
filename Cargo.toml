@@ -2,7 +2,9 @@
 name = "create-trash-app"
 version = "0.1.0"
 edition = "2021"
-
+authors = ["David Huertas"]
+description = "Create a trash with Tailwind, Rust, Axum, Sqlx, and Htmx in a few seconds. 🚀 Dockerized and ready to deploy."
+license = "MIT"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
