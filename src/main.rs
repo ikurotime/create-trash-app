@@ -9,7 +9,6 @@ fn main() {
     // Fetch the project name from command-line arguments
     let args: Vec<String> = env::args().collect();
 
-    println!("args: {:?}", args);
     // add check for -v or --version
     if args.len() == 2 && (args[1] == "-v" || args[1] == "--version") {
         println!("create-trash-app v0.0.5");
