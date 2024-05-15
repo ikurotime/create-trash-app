@@ -1,6 +1,6 @@
 [package]
 name = "create-trash-app"
-version = "0.0.5"
+version = "0.0.6"
 edition = "2021"
 authors = ["David Huertas"]
 description = "Create a trash with Tailwind, Rust, Axum, Sqlx, and Htmx in a few seconds. 🚀 Dockerized and ready to deploy."
@@ -9,7 +9,7 @@ repository = "https://github.com/ikurotime/create-trash-app"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [[bin]]
-name = "cargo-create-trash-app"
+name = "create-trash-app"
 path = "src/main.rs"
 
 [dependencies]

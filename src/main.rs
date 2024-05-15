@@ -10,6 +10,11 @@ fn main() {
     let args: Vec<String> = env::args().collect();
 
     println!("args: {:?}", args);
+    // add check for -v or --version
+    if args.len() == 2 && (args[1] == "-v" || args[1] == "--version") {
+        println!("create-trash-app v0.0.5");
+        std::process::exit(0);
+    }
     if args.len() < 2 {
         eprintln!("Usage: create-trash-app <project-name>");
         std::process::exit(1);
